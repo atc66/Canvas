@@ -10,3 +10,6 @@ ctx.lineTo(125,125);
 ctx.lineTo(75,75);
 ctx.fill();
 
+ctx.fillStyle = "blue";
+ctx.fill();
+
