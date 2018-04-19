@@ -1,6 +1,7 @@
 var c = document.querySelector('#c');
 var ctx = c.getContext("2d")
 
+ctx.strokeStyle = "#33CC33";
 ctx.strokeRect(50,50,100,100);
 
 ctx.beginPath();
