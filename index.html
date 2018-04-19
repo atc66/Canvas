@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Canvas Lesson</title>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<canvas id="c" width="500" height="500"></canvas>
+	<!-- <canvas id="c" width="500" height="500"></canvas> -->
+	<div>
+		<input type="file" id="file" />  
+	</div>
+  	<div id="image-container">
+    	<canvas width="500" height="500"></canvas>
+    	<div>
+    		<span>Top Line:</span><br/>
+      		<input id="topLineText" type="text"><br/>
+      		<span>Bottom Line:</span><br/>
+      		<input id="bottomLineText" type="text"><br/>
+      		<button id="saveBtn">Save</button>
+    	</div>
+  	</div>
 
 
-
-<script type="text/javascript" src='script.js'></script>
+	<script type="text/javascript" src='script.js'></script>
 </body>
 </html>
